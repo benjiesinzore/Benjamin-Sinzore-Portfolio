@@ -3,44 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Benjamin Sinzore</title>
+    <title>The Morghana Corporation</title>
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
 </head>
 <body>
+
+
+    <div class="splash-screen" id="splash">
+        <div class="splash-content">
+            <h1>Welcome to My Website</h1>
+            <p>Loading...</p>
+        </div>
+    </div>
+    <div class="main-content" id="main">
+        <!-- Your main page content goes here -->
+        <nav id="desktop-nav">
+            <div class="logo">The Morghana Corporation</div>
+            <div>
+                <ul class="nav-links">
+                    <li> <a href="#about">About</a> </li>
+                    <li> <a href="#experience">Experience</a> </li>
+                    <li> <a href="#projects">Projects</a> </li>
+                    <li> <a href="#contact">Contact</a> </li>
+                </ul>
+            </div>
+        </nav>
     
-    <nav id="desktop-nav">
-        <div class="logo">Benjamin Sinzore</div>
-        <div>
-            <ul class="nav-links">
-                <li> <a href="#about">About</a> </li>
-                <li> <a href="#experience">Experience</a> </li>
-                <li> <a href="#projects">Projects</a> </li>
-                <li> <a href="#contact">Contact</a> </li>
-            </ul>
-        </div>
-    </nav>
-
-
-    <nav id="hamburger-nav">
-        <div class="logo">Benjamin Sinzore</div>
-        <div class="hamburger-manu">
-
-            <div class="hamburger-icon" onclick="toggleMenu()">
-                <span></span>
-                <span></span>
-                <span></span>
+    
+        <nav id="hamburger-nav">
+            <div class="logo">The Morghana Corporation</div>
+            <div class="hamburger-manu">
+    
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+    
+                <div class="manu-links">
+                    <li> <a href="#about" onclick="toggleMenu()">About</a> </li>
+                    <li> <a href="#experience" onclick="toggleMenu()">Experience</a> </li>
+                    <li> <a href="#projects" onclick="toggleMenu()">Projects</a> </li>
+                    <li> <a href="#contact" onclick="toggleMenu()">Contact</a> </li>
+                </div>
             </div>
+        </nav>
+    </div>
+    
 
-            <div class="manu-links">
-                <li> <a href="#about" onclick="toggleMenu()">About</a> </li>
-                <li> <a href="#experience" onclick="toggleMenu()">Experience</a> </li>
-                <li> <a href="#projects" onclick="toggleMenu()">Projects</a> </li>
-                <li> <a href="#contact" onclick="toggleMenu()">Contact</a> </li>
-            </div>
-        </div>
-    </nav>
     
     <script src="script.js"></script>
 </body>

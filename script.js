@@ -8,9 +8,9 @@ window.addEventListener("load", function () {
         splash.style.opacity = 0;
         main.style.display = "block";
 
-        // Optionally, you can remove the splash screen from the DOM after fading out
+        
         setTimeout(function () {
             splash.remove();
         }, 1000);
-    }, 5000); // Show the splash screen for 3 seconds (adjust as needed)
+    }, 5000); 
 });

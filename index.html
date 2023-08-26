@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Morghana Corporation</title>
 
+    <link rel="icon" type="image/png" href="./assets/logo.png">
+
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
 </head>
-<body>
+<body class="no-scroll">
 
     <!-- Splash Screen -->
     <div class="splash-screen" id="splash">
@@ -19,9 +21,10 @@
     </div>
 
 
-    <!-- Main Content - Navigation Bar -->
+    <!-- Main Content-->
     <div class="main-content" id="main">
         
+        <!-- <img src="./assets/bg.png" alt="John Doe profile picture" /> -->
         <!-- Desktop Navigation Bar for Large Screens -->
         <nav id="desktop-nav">
             <div class="logo">The Morghana Corporation</div>
@@ -39,7 +42,7 @@
         <!-- Hamburger Navigation for Small Screens -->
         <nav id="hamburger-nav">
             <div class="logo">The Morghana Corporation</div>
-            <div class="hamburger-manu">
+            <div class="hamburger-menu">
     
                 <div class="hamburger-icon" onclick="toggleMenu()">
                     <span></span>
@@ -47,7 +50,7 @@
                     <span></span>
                 </div>
     
-                <div class="manu-links">
+                <div class="menu-links">
                     <li> <a href="#about" onclick="toggleMenu()">About</a> </li>
                     <li> <a href="#experience" onclick="toggleMenu()">Experience</a> </li>
                     <li> <a href="#projects" onclick="toggleMenu()">Projects</a> </li>
@@ -58,6 +61,23 @@
     </div>
     
 
+    <div class="main-page" id="main_page" style="background-image: url('./assets/bg.png'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+    
+        Hello
+    </div>
+
+    
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__title">Benjamin Sinzore</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+        <p>&#169; 2021 copyright all right reserved</p>
+    </footer>
     
     <script src="script.js"></script>
 </body>

@@ -12,19 +12,22 @@
 </head>
 <body class="no-scroll">
 
-    <!-- Splash Screen -->
-    <div class="splash-screen" id="splash">
-        <div class="splash-content">
+<!-- Splash Screen -->
+<div class="splash-screen" id="splash">
+    <div class="splash-content">
+        <div class="splash-content__text">
             <h1>The Morghana Corporation</h1>
             <p>Loading...</p>
         </div>
     </div>
+</div>
+
 
 
     <!-- Main Content-->
     <div class="main-content" id="main">
         
-        <!-- <img src="./assets/bg.png" alt="John Doe profile picture" /> -->
+        
         <!-- Desktop Navigation Bar for Large Screens -->
         <nav id="desktop-nav">
             <div class="logo">The Morghana Corporation</div>
@@ -59,15 +62,46 @@
             </div>
         </nav>
     </div>
+
+
+    <section class="profile-page" id="profile_" style="background-image: url('./assets/bg.png'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+        
+        <div class="section__pic-container">
+
+            <img src="./assets/profile-pic.png" alt="Morghana Corporation Profile Picture"/>
+        </div>
+
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+
+            <h1 class="title">Benjamin Sinzore</h1>
+
+            <p class="section__text__p2">Software Developer</p>
+
+            <div class="btn-container">
+                <button class="btn btn-color-2"
+                onclick="window.open('./assets/resume-example.pdf')">
+                Download CV</button>
+
+                <button class="btn btn-color-1"
+                onclick="location.href='./#contact'">
+                Contact Info</button>
+            </div>
+
+            <div class="socials-container">
+                <img src="./assets/linkedin.png" alt="My LinkedIn Profile"
+                class="icon" onclick="location.href='https://www.linkedin.com/in/benjamin-sinzore-26a3661b7/'"/>
+                
+                <img src="./assets/github.png" alt="My LinkedIn Profile"
+                class="icon" onclick="location.href='https://github.com/benjiesinzore'"/>
+            </div>
+        </div>
+    </section>
     
 
-    <div class="main-page" id="main_page" style="background-image: url('./assets/bg.png'); background-size: cover; background-position: center; background-repeat: no-repeat;">
-    
-        Hello
-    </div>
+
 
     
-
     <!--===== FOOTER =====-->
     <footer class="footer">
         <p class="footer__title">Benjamin Sinzore</p>

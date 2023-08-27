@@ -221,16 +221,6 @@ a:hover {
 }
 
 
-
-section {
-    padding: 4vh;
-    height: 96vh;
-    margin: 0 10rem;
-    box-sizing: border-box;
-    min-height: fit-content;
-}
-
-
 .splash-content {
     display: flex;
     flex-direction: column; /* Stack items vertically */
@@ -242,6 +232,22 @@ section {
     text-align: center;
     color: white;
     margin-top: 1rem; /* Add some space between the two text elements */
+}
+
+
+
+/* SECTIONS */
+section {
+    padding: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+
+.section-container {
+    display: flex;
 }
 
 

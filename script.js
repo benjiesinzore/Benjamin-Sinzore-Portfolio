@@ -30,3 +30,17 @@ function toggleMenu() {
     icon.classList.toggle("open");
 }
 
+
+
+
+// JavaScript to show/hide duplicate navbar on scroll
+window.addEventListener('scroll', function () {
+    var fixedNav = document.getElementById('fixed-nav');
+    if (window.scrollY > 100) {
+        fixedNav.style.top = '0';
+    } else {
+        fixedNav.style.top = '-80px'; // Hide the duplicate navbar above the viewport
+    }
+});
+
+

@@ -43,6 +43,26 @@ nav,
 }
 
 
+/* Style for the duplicate fixed navigation bar */
+.fixed-nav {
+    position: fixed;
+    top: -80px; /* Initially hide it above the viewport */
+    width: 100%;
+    background-color: #fff;
+    z-index: 100;
+    transition: top 0.3s ease; /* Add smooth transition effect */
+
+
+    
+    justify-content: space-between;
+    margin-left: 20px; 
+    /* margin-right: 10px; */
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+
+
 .nav-links {
     gap: 2.2rem;
     list-style: none;
@@ -61,7 +81,7 @@ a:hover {
     color: gray;
     text-decoration: underline;
     text-underline-offset: 0.7rem;
-    text-decoration-color: rgb(181, 181, 181);
+    text-decoration-color: rgb(255, 164, 164);
 }
 
 .logo {
@@ -210,7 +230,7 @@ a:hover {
     
     height: calc(100vh - 3rem);
     row-gap: 1rem;
-    margin-left: 20px; 
+    margin-left: 10px; 
     margin-right: 10px;
     margin-top: 10px;
 
@@ -259,22 +279,22 @@ section {
 
 #profile_ {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 5rem;
     height: 80vh;
 }
 
 .section__pic-container {
     display: flex;
-    height: 400px;
-    width: 400px;
-    margin: auto 0;
+    height: 150px;
+    width: 150px;
+    margin-left: 10px;
 }
 
 
 
 .section__text {
-    align-self: center;
+    align-self:flex-start;
     text-align: center;
 }
 
@@ -298,12 +318,15 @@ section {
 }
 
 
-#socials-container {
+
+
+.socials-container {
     display: flex;
     justify-content: center;
-    margin-top: 1rem;
+    margin-top: 2rem;
     gap: 1rem;
 }
+
 
 
 .icon {
@@ -316,6 +339,7 @@ section {
 .btn-container {
     display: flex;
     justify-content: center;
+    margin-top: 1.5rem;
     gap: 1rem;
 }
 
@@ -412,12 +436,6 @@ section {
 .section-container {
     gap: 4rem;
     height: 80%;
-}
-
-.section__pic-container {
-    height: 400px;
-    width: 400px;
-    margin: auto 0;
 }
 
 
